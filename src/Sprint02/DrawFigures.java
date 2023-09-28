@@ -5,14 +5,17 @@ public class DrawFigures {
     public static void main(String[] args) {
         drawline();
         drawcross();
+
         drawcut();
+
         drawline();
         drawcross();
         drawline();
+
         drawcut();
-        drawstar();
-        drawstar();
-        drawstar();
+        for (int i=0; i<3; i++) {
+            drawstar();
+        }
         drawline();
         drawcross();
     }
